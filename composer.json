@@ -1,0 +1,17 @@
+{
+    "name": "FileTranslator",
+    "description": "File translator for XML, JSON, CSV, XLS, XSLX files. Translation is done using google translate API.",
+    "authors": [       
+        {
+            "name": "Beatris Bunova",
+            "email": "bibunova@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FileTranslator\\": "src/FileTranslator/"
+        }
+    },
+    "require": {},
+    "require-dev": {}
+}
